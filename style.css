@@ -88,104 +88,106 @@ footer p {
   padding: 20px 0 20px 0;
   text-align: center;
 }
-h2{
-    font-family: "ibm plex serif", serif;
-    color: rgb(193, 194, 188);
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin-top: 20px;
+h2 {
+  font-family: "ibm plex serif", serif;
+  color: rgb(193, 194, 188);
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
-.cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.cards img{
-    display: flex;
-    flex-direction: column;
-    max-width:350px ;
-    height: auto;
-    border: 1px solid black;
-
+.cards img {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  height: auto;
+  border: 1px solid black;
 }
-.compare{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.compare {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.cards p{
-padding: 10px 20px 10px 20px;
-text-align: left;
+.cards p {
+  padding: 10px 20px 10px 20px;
+  text-align: left;
 }
-.profil{
-    max-width: 250px;
-    border: 1px solid white;
+.profil {
+  max-width: 250px;
+  border: 1px solid white;
 }
-.profilkort{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.profilkort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.profilkort p{
-    text-align: left;
+.profilkort p {
+  text-align: left;
 }
 
-@media (min-width: 750px){
-header{
+@media (min-width: 750px) {
+  header {
     height: 400px;
-}
+  }
 
-.logo{
+  .logo {
     max-width: 400px;
     height: 400px;
-}
-nav{
+  }
+  nav {
     padding-right: 20px;
-}
+  }
 
-li a{
-    font-size: 2.0rem;
-}
-.links{
-    gap:60px;
-}
-h1{
-    font-size: 3.0rem;
-}
+  li a {
+    font-size: 2rem;
+  }
+  .links {
+    gap: 60px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 
-@media (min-width:1100px){
+  @media (min-width: 1100px) {
+    p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      padding: 20px 400px 20px 400px;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-top: 50px;
+    }
+    .compare {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 50px;
+    }
+    .compare img {
+      max-width: 600px;
+      max-height: 600px;
+      width: auto;
+      height: auto;
+      flex-shrink: 0;
+    }
+    .profilkort p {
+      padding: 0 30px 0 30px;
+    }
 
-p{
-    font-size: 1.5rem;
-    line-height: 2.0rem;
-    padding: 20px 400px 20px 400px;
-}
-h2{
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-.compare{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    
-}
-.compare img{
-    max-width: 600px;
-    max-height: 600px;
-    width: auto;
-    height: auto;
-    flex-shrink: 0;
-}
-
-@media (min-width:1500px){
-.cards p{
-    padding: 20px 350px 20px 350px;
-}
-}
-}
+    @media (min-width: 1500px) {
+      .cards p {
+        padding: 20px 350px 20px 350px;
+      }
+      .profilkort p {
+        padding: 0 300px 0 300px;
+      }
+    }
+  }
 }
