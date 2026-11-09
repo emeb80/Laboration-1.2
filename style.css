@@ -48,15 +48,12 @@ li a {
 body {
   background-color: #2e5265;
 }
-body img {
-  max-width: 50px;
-  height: auto;
-}
+
 h1 {
   color: rgb(193, 194, 188);
   font-family: "ibm plex serif", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 500;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -89,4 +86,34 @@ footer p {
   font-family: "national park", sans-serif;
   color: rgb(193, 194, 188);
   padding: 20px 0 20px 0;
+}
+h2{
+    font-family: "ibm plex serif", serif;
+    color: rgb(193, 194, 188);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cards img{
+    display: flex;
+    flex-direction: column;
+    max-width:350px ;
+    height: auto;
+    border: 1px solid black;
+
+}
+.compare{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards p{
+padding: 10px 20px 10px 20px;
+text-align: left;
 }
